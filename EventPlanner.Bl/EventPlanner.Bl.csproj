@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventPlanner.DAL\EventPlanner.Dal.csproj" />
+    <ProjectReference Include="..\EventPlanner.DAL.EntityFramework\EventPlanner.Dal.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>
